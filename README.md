@@ -33,18 +33,20 @@ Interactive Three.js/WebGL work focused on cinematic presentation, orbit control
 **[Live studio →](https://sushir-3d-studio.floot.app)**
 
 ### Sushir Halo Tactical 3D
-A tested Three.js/WebGL tactical visualization built as a portfolio-grade interactive systems demo.
+A tested Three.js/WebGL tactical visualization built as a cinematic replay and decision-analysis product demo.
 
 **[View the source in Ssushhii →](https://github.com/windingsky9-droid/Ssushhii/tree/main/showcase)**
 
-Current V9 systems:
-- orbitable 3D arena with selectable player roles
-- cinematic guided camera tour + manual tactical POVs
+Current V11 systems:
+- full-screen Director Mode + cinematic guided cameras
+- live LOS beam and modeled priority-target halo
+- synchronized replay ghost trails
+- shot / story beat / decision-window narration
+- modeled confidence meter
+- play/pause/step/speed scenario replay
+- cover-aware LOS checks, target priority, objective overlays, and matchup matrix
 - live mini-map and render telemetry
-- Explain Mode for fast visual understanding
-- animated routes, threat cones, trade links, height cues, labels, shadows, and scan effects
-- simple “what you see / why it matters” visual explanations
-- test-backed build contracts and explicit separation of modeled tendencies from real telemetry
+- explicit separation of modeled tactical values from real Halo telemetry
 
 Basically: **less spreadsheet, more “ohhh, THAT’S the angle.”**
 
