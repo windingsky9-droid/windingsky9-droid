@@ -1,74 +1,44 @@
 # WindingSky / Sushir
 
-**Python/API + AI/MCP developer. I make systems talk to each other; occasionally they glow purple.**
+**Python & API developer building useful integrations, dashboards, and interactive 3D demos.**
 
-I build practical integrations, dashboards, automation, and interactive 3D/WebGL experiences. The goal is simple: make the thing work, test it, and make it clear enough that somebody else can actually use it.
+I’m open to junior, contract, and project-based opportunities involving Flask, REST APIs, workflow automation, and browser-based visualization.
 
-## What I build
+## Featured projects
 
-- **Python + API integrations** — Flask, REST/JSON, service boundaries, error handling, server-side secrets
-- **AI / MCP workflows** — tool integrations, bounded automation, structured outputs, debugging
-- **Dashboards + internal tools** — data workflows turned into focused, usable interfaces
-- **Three.js / WebGL** — orbitable scenes, cinematic camera work, interactive overlays, data-driven visuals
-- **Verification** — pytest, GitHub Actions, smoke checks, reproducible demos
+### [Market Observatory](https://github.com/windingsky9-droid/Ssushhii)
+A Flask research dashboard with a provider boundary, deterministic demo data, JSON endpoints, and automated tests. Demo mode runs without paid API credentials.
 
-## Featured work
+- 15 existing tests passed during cloud setup.
+- Live health, ticker research, invalid-input, and pricing checks passed.
+- Desktop and mobile browser flows were verified.
+- Live data providers and payment integrations are optional; the verified demo uses synthetic data.
 
-### Market Observatory
-A Flask market-research MVP built around deterministic demo data and an optional live-provider boundary.
+### [Sushir Halo Tactical Command Center](https://github.com/windingsky9-droid/Ssushhii/tree/main/showcase)
+An interactive Three.js tactical visualization with camera controls, replay analysis, route overlays, and a cinematic Director Mode. Tactical values are modeled demo values, not official Halo telemetry.
 
-**[Repository →](https://github.com/windingsky9-droid/Ssushhii)**
+### [Sushir 3D Studio portfolio](https://github.com/windingsky9-droid/Ssushhii/tree/main/portfolio)
+A public portfolio with a self-contained observatory demo and examples of interactive presentation work.
 
-Built with:
-- Flask + Python service architecture
-- REST/JSON endpoints
-- server-side secret separation
-- automated tests and deployment checks
-- CI-oriented verification
-- a public demo / client-acquisition layer
+[Visit the live studio](https://sushir-3d-studio.floot.app)
 
-### Sushir 3D Studio
-Interactive Three.js/WebGL work focused on cinematic presentation, orbit controls, responsive UI, branded 3D scenes, and performance-aware rendering.
+## Recent project updates
 
-**[Live studio →](https://sushir-3d-studio.floot.app)**
+- Verified the Market Observatory cloud setup with API and desktop/mobile checks.
+- Exercised the tactical showcase’s WebGL rendering, replay, camera, timeline, and Director Mode controls.
 
-### Sushir Halo Tactical 3D
-A tested Three.js/WebGL tactical visualization built as a cinematic operations-analysis product demo.
+## What I can help with
 
-**[View the source in Ssushhii →](https://github.com/windingsky9-droid/Ssushhii/tree/main/showcase)**
+- Diagnose small Flask and REST endpoint issues.
+- Connect documented APIs and handle errors clearly.
+- Build focused dashboards and internal tools.
+- Explore bounded AI/MCP integrations.
+- Create browser-based visualization prototypes.
 
-Current V12 systems:
-- actual vs recommended 3D routes
-- freeze-frame tactical analysis
-- cause classification and sector-focus overlays
-- projected 3D callouts and story timeline
-- live tactical verdict
-- Director Mode with LOS beam, target halo, replay ghosts, modeled confidence, and camera choreography
-- synchronized replay / objective / matchup analysis
-- live mini-map and render telemetry
-- explicit separation of modeled values from real Halo telemetry
+**Stack:** Python · Flask · REST/JSON · pytest · JavaScript · Three.js · HTML/CSS · GitHub Actions
 
-Basically: **less spreadsheet, more “ohhh, THAT’S the angle.”**
+## Start a conversation
 
-## Stack
+[Open a service brief](https://github.com/windingsky9-droid/Ssushhii/issues/new?template=service-request.yml) with your goal, expected behavior, and relevant constraints. Please leave passwords and API keys out of public issues.
 
-`Python` · `Flask` · `REST APIs` · `pytest` · `GitHub Actions` · `MCP` · `TypeScript` · `React` · `Three.js` · `WebGL` · `HTML/CSS` · `Docker`
-
-## How I work
-
-Small proof first. Tests before victory laps. Clear scope. Direct updates. Clean handoff.
-
-I like projects where APIs, automation, data, or interactive visuals need to stop being a pile of parts and become one working system.
-
-## Open to work
-
-Interested in **junior / contract / project-based** work involving:
-
-- Python API integrations
-- backend debugging
-- AI/MCP tooling
-- dashboards and internal tools
-- automation workflows
-- interactive Three.js/WebGL experiences
-
-If you have something weird but useful, that is probably a plus.
+Small Flask/API fixes can start at **$40 USD**, subject to confirming the exact issue and scope first.
