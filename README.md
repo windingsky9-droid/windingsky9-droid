@@ -1,3 +1,5 @@
+[![Winding Sky, a real-time Three.js render by Sushir: a glowing API core inside a faceted crystal, ringed by glass panels that show Flask routes, a passing pytest run, a dashboard, a tactical replay, and a workflow, under a winding aurora sky](assets/sushir-winding-sky-hero.jpg)](https://github.com/windingsky9-droid/Ssushhii/tree/main/showcase)
+
 # WindingSky / Sushir
 
 **Python & API developer building useful integrations, dashboards, and interactive 3D demos.**
@@ -5,6 +7,9 @@
 I’m open to junior, contract, and project-based opportunities involving Flask, REST APIs, workflow automation, and browser-based visualization.
 
 ## Featured projects
+
+### [Winding Sky — real-time 3D render](https://github.com/windingsky9-droid/Ssushhii/tree/main/showcase)
+The banner above is a single Three.js page rendered in real time: physically based glass, planar reflections, bloom, and a seamless 10-second loop. Its glass panels show Market Observatory’s real Flask routes and its passing test run. Drag to orbit, or export a 4K still.
 
 ### [Market Observatory](https://github.com/windingsky9-droid/Ssushhii)
 A Flask research dashboard with a provider boundary, deterministic demo data, JSON endpoints, and automated tests. Demo mode runs without paid API credentials.
@@ -24,6 +29,7 @@ A public portfolio with a self-contained observatory demo and examples of intera
 
 ## Recent project updates
 
+- Built the Winding Sky real-time 3D render, with a reproducible script for its stills and video loop.
 - Verified the Market Observatory cloud setup with API and desktop/mobile checks.
 - Exercised the tactical showcase’s WebGL rendering, replay, camera, timeline, and Director Mode controls.
 
