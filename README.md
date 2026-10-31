@@ -8,7 +8,9 @@
 
 <p align="center">
   <a href="https://sushir-3d-studio.floot.app"><b>Visit the live studio</b></a> &nbsp;·&nbsp;
-  <a href="https://github.com/windingsky9-droid/Ssushhii/tree/main/portfolio">Portfolio</a> &nbsp;·&nbsp;
+  <a href="https://rawcdn.githack.com/windingsky9-droid/Ssushhii/577dedc7c30d6bafe16ef8f09178a832e075afe0/portfolio/demos/celestial-observatory-cinematic.html"><b>Launch the Observatory</b></a> &nbsp;·&nbsp;
+  <a href="https://rawcdn.githack.com/windingsky9-droid/Ssushhii/577dedc7c30d6bafe16ef8f09178a832e075afe0/portfolio/demos/sky-wheel.html"><b>Open the Sky Wheel</b></a> &nbsp;·&nbsp;
+  <a href="https://rawcdn.githack.com/windingsky9-droid/Ssushhii/577dedc7c30d6bafe16ef8f09178a832e075afe0/portfolio/index.html">Portfolio</a> &nbsp;·&nbsp;
   <a href="https://github.com/windingsky9-droid/Ssushhii/issues/new?template=service-request.yml">Start a project</a>
 </p>
 
@@ -43,6 +45,11 @@ I'm open to junior, contract, and project-based work involving Flask, REST APIs,
         <li>A chart wheel that reads each planet's zodiac sign live</li>
         <li>Frame-exact film capture for trailers</li>
       </ul>
+      <b><a href="https://rawcdn.githack.com/windingsky9-droid/Ssushhii/577dedc7c30d6bafe16ef8f09178a832e075afe0/portfolio/demos/celestial-observatory-cinematic.html">▶ Launch it live</a></b> in your browser. Or jump straight to
+      <a href="https://rawcdn.githack.com/windingsky9-droid/Ssushhii/577dedc7c30d6bafe16ef8f09178a832e075afe0/portfolio/demos/celestial-observatory-cinematic.html?shot=erebus">the black hole</a>,
+      <a href="https://rawcdn.githack.com/windingsky9-droid/Ssushhii/577dedc7c30d6bafe16ef8f09178a832e075afe0/portfolio/demos/celestial-observatory-cinematic.html?shot=pulsar">the pulsar</a>,
+      <a href="https://rawcdn.githack.com/windingsky9-droid/Ssushhii/577dedc7c30d6bafe16ef8f09178a832e075afe0/portfolio/demos/celestial-observatory-cinematic.html?shot=sky">the real sky</a> or
+      <a href="https://rawcdn.githack.com/windingsky9-droid/Ssushhii/577dedc7c30d6bafe16ef8f09178a832e075afe0/portfolio/demos/celestial-observatory-cinematic.html?tour">the narrated tour</a>.
     </td>
   </tr>
 </table>
@@ -55,7 +62,7 @@ I'm open to junior, contract, and project-based work involving Flask, REST APIs,
   <img src="assets/celestial-observatory-v14-wheel.jpg" width="300" alt="The observatory HUD with its chart wheel">
 </p>
 
-### [Sky Wheel](https://github.com/windingsky9-droid/Ssushhii/blob/claude/peaceful-carson-ce2p6a/portfolio/demos/sky-wheel.html)
+### [Sky Wheel](https://rawcdn.githack.com/windingsky9-droid/Ssushhii/577dedc7c30d6bafe16ef8f09178a832e075afe0/portfolio/demos/sky-wheel.html)
 
 <img align="right" width="300" src="assets/sky-wheel-card.jpg" alt="Sky Wheel: a chart of the real sky with stars and constellations behind the zodiac">
 
@@ -68,6 +75,8 @@ Positions were checked against PyEphem at 240 dates:
 | Sun | 0.006° |
 | Moon | 0.028° |
 | Every planet | under 0.1° |
+
+**[▶ Open it live](https://rawcdn.githack.com/windingsky9-droid/Ssushhii/577dedc7c30d6bafe16ef8f09178a832e075afe0/portfolio/demos/sky-wheel.html)** · [Moon landing vs. today](https://rawcdn.githack.com/windingsky9-droid/Ssushhii/577dedc7c30d6bafe16ef8f09178a832e075afe0/portfolio/demos/sky-wheel.html?cmp=1&d=1969-07-20T15:17&tz=America/Chicago&place=Houston&n1=Moon%20landing&n2=Today) · [Source](https://github.com/windingsky9-droid/Ssushhii/blob/main/portfolio/demos/sky-wheel.html)
 
 <br clear="right">
 
