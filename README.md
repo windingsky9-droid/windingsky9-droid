@@ -24,10 +24,28 @@ I'm open to junior, contract, and project-based work involving Flask, REST APIs,
   <img alt="pytest" src="https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white">
   <img alt="JavaScript" src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black">
   <img alt="three.js" src="https://img.shields.io/badge/three.js-000000?style=flat-square&logo=threedotjs&logoColor=white">
+  <img alt="Blender" src="https://img.shields.io/badge/Blender-E87D0D?style=flat-square&logo=blender&logoColor=white">
   <img alt="WebGL2 and GLSL" src="https://img.shields.io/badge/WebGL2%20%C2%B7%20GLSL-990000?style=flat-square&logo=webgl&logoColor=white">
   <img alt="Playwright" src="https://img.shields.io/badge/Playwright-2EAD33?style=flat-square&logo=playwright&logoColor=white">
   <img alt="GitHub Actions" src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white">
 </p>
+
+## Rendered in Blender
+
+<a href="https://github.com/windingsky9-droid/Ssushhii/tree/d5b6d179187aaf7c38594244aadc11a9abfd5c98/blender">
+  <img src="assets/duo-display-hero.jpg" width="100%" alt="Duo Display: two glowing hex-pedestal displays reading SUSHIR and STUDIO, joined by a light arc over a reflective grid floor with god rays">
+</a>
+
+### [Duo Display](https://github.com/windingsky9-droid/Ssushhii/tree/d5b6d179187aaf7c38594244aadc11a9abfd5c98/blender)
+One Python script builds this scene in Blender 4.2 LTS and renders it with Cycles path tracing: hex pedestals, extruded 3D type, volumetric god rays, depth of field and an AgX grade. There is no hand modelling, and the two names are command-line arguments.
+
+<img src="assets/duo-display-making-of-sheet.jpg" width="100%" alt="The making-of, one frame per stage: each stage's prompt and code on the left, the render it makes on the right">
+
+- Six build stages, from clay blockout to the final grade, each rendered and timed (12 to 74 seconds at 960×540)
+- A 23-second making-of: each stage's prompt and code type out beside the frame they make
+- One-command setup and render scripts for Windows, macOS and Linux
+
+**[Build log](https://github.com/windingsky9-droid/Ssushhii/tree/d5b6d179187aaf7c38594244aadc11a9abfd5c98/blender)** · [Making-of video](https://github.com/windingsky9-droid/Ssushhii/blob/d5b6d179187aaf7c38594244aadc11a9abfd5c98/portfolio/media/duo-display-making-of.mp4) · [The prompts that built it](https://github.com/windingsky9-droid/Ssushhii/blob/d5b6d179187aaf7c38594244aadc11a9abfd5c98/docs/PROMPT_LIBRARY.md)
 
 ## Interactive 3D
 
@@ -100,6 +118,7 @@ A Flask research dashboard with a provider boundary, deterministic demo data, JS
 - Build focused dashboards and internal tools.
 - Explore bounded AI/MCP integrations.
 - Create browser-based visualization prototypes, from a chart to a full 3D scene.
+- Script Blender scenes and renders, from a single still to a full build log.
 
 ## Start a conversation
 
