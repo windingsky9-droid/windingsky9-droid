@@ -1,0 +1,49 @@
+name: Redraw the live profile cards
+
+# Every morning: today's sky, the chess card and the work board.
+on:
+  schedule:
+    - cron: "23 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-live
+  cancel-in-progress: false
+
+jobs:
+  redraw:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Astronomy Engine
+        run: pip install astronomy-engine==2.1.19
+
+      - name: Redraw today's sky
+        run: python scripts/sky_today.py
+
+      - name: Redraw the chess card
+        run: python scripts/chess_card.py
+        continue-on-error: true
+
+      - name: Redraw the work board
+        run: python scripts/cooking_board.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        continue-on-error: true
+
+      - name: Commit the new cards
+        run: |
+          git add assets/sky-today.svg assets/chess.svg assets/board.svg
+          if git diff --cached --quiet; then echo "Nothing changed"; exit 0; fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Redraw today's sky, chess card and work board"
+          git push

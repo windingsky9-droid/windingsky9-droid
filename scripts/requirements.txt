@@ -1,0 +1,3 @@
+astronomy-engine==2.1.19   # sky_today.py
+Pillow>=10                 # build_static_art.py
+fonttools>=4.40            # extract_glyphs.py (one-off)
