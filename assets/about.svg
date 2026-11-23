@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-labelledby="t d">
+<title id="t">About Sushir, as a terminal</title>
+<desc id="d">Role: Python &amp; API dev who also draws planets; Stack: Python · Flask · REST/JSON · pytest; Render: three.js r170 · WebGL2 · GLSL · bloom; Sky: 3,232 real stars, placed by my own math; Accuracy: Sun 0.006° · Moon 0.028° vs PyEphem; Tests: 15 passing on Market Observatory; Chess: WindingSkyy · 2,000+ games · 76% accuracy; Cooking: a 3D configurator, a duo display, more; Status: open to junior, contract &amp; project work; Rate: Flask/API fixes from $40, scope first; Motto: if it renders, it ships</desc>
+<defs>
+<radialGradient id="bg" cx="68%" cy="30%" r="95%"><stop offset="0" stop-color="#0d1536"/><stop offset="1" stop-color="#02040c"/></radialGradient>
+<clipPath id="card"><rect width="1280" height="640" rx="24"/></clipPath>
+
+<style>.blink{animation:bl 1.1s steps(1) infinite}@keyframes bl{50%{opacity:0}}
+.s{animation:tw 3s ease-in-out infinite alternate}
+.s1{animation-duration:2.2s}.s2{animation-duration:3.5s;animation-delay:-1.1s}
+.s3{animation-duration:4.7s;animation-delay:-2.3s}.s4{animation-duration:2.9s;animation-delay:-.6s}
+@keyframes tw{from{opacity:.15}to{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1280" height="640" fill="url(#bg)"/>
+
+<rect width="1280" height="54" fill="rgba(255,255,255,.04)"/>
+<line x1="0" y1="54" x2="1280" y2="54" stroke="rgba(226,233,255,0.14)"/>
+<circle cx="34" cy="27" r="7.5" fill="#ff906c"/>
+<circle cx="60" cy="27" r="7.5" fill="#ffd88a"/>
+<circle cx="86" cy="27" r="7.5" fill="#5ef0c8"/>
+<text x="640.0" y="34.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="500" fill="#aab4d6" text-anchor="middle" >sushi@windingsky: ~/about</text>
+<text x="46" y="104" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffe7b8">                                            </tspan></text>
+<text x="46" y="125" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffe7b8">                                    </tspan><tspan fill="#cfd8ff">·</tspan><tspan fill="#ffe7b8">       </tspan></text>
+<text x="46" y="146" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffe7b8">                                            </tspan></text>
+<text x="46" y="167" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffe7b8">                                            </tspan></text>
+<text x="46" y="188" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffe7b8">                                            </tspan></text>
+<text x="46" y="209" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffe7b8">                 </tspan><tspan fill="#cfd8ff">.·</tspan><tspan fill="#ffe7b8"> ....          </tspan><tspan fill="#cfd8ff">.</tspan><tspan fill="#ffe7b8">         </tspan></text>
+<text x="46" y="230" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffe7b8">              .:--=======--::.        </tspan><tspan fill="#cfd8ff">.</tspan><tspan fill="#ffe7b8">     </tspan></text>
+<text x="46" y="251" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffe7b8">            :-=++******+++===--:            </tspan></text>
+<text x="46" y="272" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffe7b8">          :-=+*########***+++==--.          </tspan></text>
+<text x="46" y="293" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffe7b8">  ..:</tspan><tspan fill="#7cc4ff">:</tspan><tspan fill="#5ef0c8">---</tspan><tspan fill="#ffe7b8">:=+*##%%@@%%%###***++==--:</tspan><tspan fill="#5ef0c8">---:</tspan><tspan fill="#ffe7b8">:..  </tspan></text>
+<text x="46" y="314" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffe7b8">-=</tspan><tspan fill="#5ef0c8">--</tspan><tspan fill="#ffe7b8">==</tspan><tspan fill="#5ef0c8">--</tspan><tspan fill="#ffe7b8">:=+**#%@@@@@%%%###***++==--:</tspan><tspan fill="#5ef0c8">--</tspan><tspan fill="#ffe7b8">==</tspan><tspan fill="#5ef0c8">--</tspan><tspan fill="#ffe7b8">=-</tspan></text>
+<text x="46" y="335" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffd88a">:</tspan><tspan fill="#5ef0c8">:</tspan><tspan fill="#ffd88a">..   .-=+*##%%%@%%%%%###***++==--:    ..</tspan><tspan fill="#5ef0c8">:</tspan><tspan fill="#ffd88a">:</tspan></text>
+<text x="46" y="356" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffd88a">-      .-=+**##%%%%%%%###****++==--:.</tspan><tspan fill="#cfd8ff">.</tspan><tspan fill="#ffd88a">     -</tspan></text>
+<text x="46" y="377" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffd88a">:</tspan><tspan fill="#7cc4ff">:</tspan><tspan fill="#ffd88a">..    -==+**##########****+++==--:    ..</tspan><tspan fill="#5ef0c8">:</tspan><tspan fill="#ffd88a">:</tspan></text>
+<text x="46" y="398" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#ffd88a">-=</tspan><tspan fill="#5ef0c8">--=</tspan><tspan fill="#ffd88a">=</tspan><tspan fill="#5ef0c8">=</tspan><tspan fill="#7cc4ff">-</tspan><tspan fill="#5ef0c8">=</tspan><tspan fill="#ffd88a">=+++*************+++++====</tspan><tspan fill="#7cc4ff">=</tspan><tspan fill="#5ef0c8">-=</tspan><tspan fill="#ffd88a">=</tspan><tspan fill="#5ef0c8">=--</tspan><tspan fill="#ffd88a">=-</tspan></text>
+<text x="46" y="419" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#f5b94a">   .::</tspan><tspan fill="#7cc4ff">:</tspan><tspan fill="#5ef0c8">-=+**</tspan><tspan fill="#f5b94a">*</tspan><tspan fill="#7cc4ff">*</tspan><tspan fill="#5ef0c8">######</tspan><tspan fill="#7cc4ff">#</tspan><tspan fill="#5ef0c8">######</tspan><tspan fill="#7cc4ff">#</tspan><tspan fill="#5ef0c8">##*</tspan><tspan fill="#f5b94a">*</tspan><tspan fill="#5ef0c8">**</tspan><tspan fill="#7cc4ff">+</tspan><tspan fill="#5ef0c8">=-:</tspan><tspan fill="#f5b94a">::.   </tspan></text>
+<text x="46" y="440" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#f5b94a">          .--===+++++++++====---:.      </tspan><tspan fill="#cfd8ff">.</tspan><tspan fill="#f5b94a">   </tspan></text>
+<text x="46" y="461" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#cfd8ff">.</tspan><tspan fill="#f5b94a">           .:---=========----:.            </tspan></text>
+<text x="46" y="482" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#f5b94a">              ..::-------:::.               </tspan></text>
+<text x="46" y="503" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#f5b94a">  </tspan><tspan fill="#cfd8ff">.</tspan><tspan fill="#f5b94a">  </tspan><tspan fill="#cfd8ff">*</tspan><tspan fill="#f5b94a"> </tspan><tspan fill="#cfd8ff">*</tspan><tspan fill="#f5b94a">                   </tspan><tspan fill="#cfd8ff">·</tspan><tspan fill="#f5b94a">                </tspan></text>
+<text x="46" y="524" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#f5b94a">                                            </tspan></text>
+<text x="46" y="545" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#f5b94a">                                            </tspan></text>
+<text x="46" y="566" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#f5b94a">                 </tspan><tspan fill="#cfd8ff">·</tspan><tspan fill="#f5b94a">                          </tspan></text>
+<text x="46" y="587" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" xml:space="preserve" textLength="440" lengthAdjust="spacingAndGlyphs"><tspan fill="#f5b94a">                                            </tspan></text>
+<text x="530" y="110" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="24" font-weight="700"><tspan fill="#ffd88a">sushi</tspan><tspan fill="#aab4d6">@</tspan><tspan fill="#5ef0c8">windingsky</tspan></text>
+<line x1="530" y1="124" x2="860" y2="124" stroke="#aab4d6" stroke-dasharray="3 5"/>
+<text x="530.0" y="162.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Role</text>
+<text x="670.0" y="162.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >Python &amp; API dev who also draws planets</text>
+<text x="530.0" y="199.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Stack</text>
+<text x="670.0" y="199.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >Python · Flask · REST/JSON · pytest</text>
+<text x="530.0" y="236.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Render</text>
+<text x="670.0" y="236.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >three.js r170 · WebGL2 · GLSL · bloom</text>
+<text x="530.0" y="273.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Sky</text>
+<text x="670.0" y="273.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >3,232 real stars, placed by my own math</text>
+<text x="530.0" y="310.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Accuracy</text>
+<text x="670.0" y="310.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >Sun 0.006° · Moon 0.028° vs PyEphem</text>
+<text x="530.0" y="347.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Tests</text>
+<text x="670.0" y="347.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >15 passing on Market Observatory</text>
+<text x="530.0" y="384.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Chess</text>
+<text x="670.0" y="384.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >WindingSkyy · 2,000+ games · 76% accuracy</text>
+<text x="530.0" y="421.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Cooking</text>
+<text x="670.0" y="421.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >a 3D configurator, a duo display, more</text>
+<text x="530.0" y="458.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Status</text>
+<text x="670.0" y="458.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >open to junior, contract &amp; project work</text>
+<text x="530.0" y="495.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Rate</text>
+<text x="670.0" y="495.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >Flask/API fixes from $40, scope first</text>
+<text x="530.0" y="532.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Motto</text>
+<text x="670.0" y="532.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >if it renders, it ships</text>
+<rect x="530" y="561" width="40" height="22" rx="4" fill="#02040c" stroke="rgba(255,255,255,.15)"/>
+<rect x="574" y="561" width="40" height="22" rx="4" fill="#ff906c" stroke="rgba(255,255,255,.15)"/>
+<rect x="618" y="561" width="40" height="22" rx="4" fill="#ffd88a" stroke="rgba(255,255,255,.15)"/>
+<rect x="662" y="561" width="40" height="22" rx="4" fill="#5ef0c8" stroke="rgba(255,255,255,.15)"/>
+<rect x="706" y="561" width="40" height="22" rx="4" fill="#7cc4ff" stroke="rgba(255,255,255,.15)"/>
+<rect x="750" y="561" width="40" height="22" rx="4" fill="#b9a6ff" stroke="rgba(255,255,255,.15)"/>
+<rect x="794" y="561" width="40" height="22" rx="4" fill="#ff8fb8" stroke="rgba(255,255,255,.15)"/>
+<rect x="838" y="561" width="40" height="22" rx="4" fill="#eef2ff" stroke="rgba(255,255,255,.15)"/>
+<rect x="892" y="563" width="11" height="19" fill="#eef2ff" class="blink"/>
+</g>
+<rect x=".5" y=".5" width="1279" height="639" rx="24" fill="none" stroke="rgba(255,255,255,0.10)"/>
+</svg>

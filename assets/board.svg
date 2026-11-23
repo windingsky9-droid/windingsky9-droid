@@ -1,0 +1,100 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 920" width="1280" height="920" role="img" aria-labelledby="t d">
+<title id="t">What I&#x27;ve shipped and what&#x27;s cooking</title>
+<desc id="d">Shipped: Celestial Observatory V15, Sky Wheel, Halo Tactical Command Center V12, Market Observatory, Cargo Profit Engine, Sushir 3D Studio. Cooking: Add the Duo Display build log, making-of, installers and a visual README; Add Winding Sky real-time 3D render showcase; Add a copyable GPT code walkthrough prompt; Harden live comparison handling and add OMEN/VS Code verification; Show the source and tests in two dashboard code panels; Give the project a clearer front door; Add CodeQL and Dependabot security automation</desc>
+<defs>
+<radialGradient id="bg" cx="68%" cy="30%" r="95%"><stop offset="0" stop-color="#0d1536"/><stop offset="1" stop-color="#02040c"/></radialGradient>
+<clipPath id="card"><rect width="1280" height="920" rx="28"/></clipPath>
+
+<style>
+.s{animation:tw 3s ease-in-out infinite alternate}
+.s1{animation-duration:2.2s}.s2{animation-duration:3.5s;animation-delay:-1.1s}
+.s3{animation-duration:4.7s;animation-delay:-2.3s}.s4{animation-duration:2.9s;animation-delay:-.6s}
+@keyframes tw{from{opacity:.15}to{opacity:1}}
+@media (prefers-reduced-motion: reduce){*{animation:none!important}}
+</style>
+</defs>
+<g clip-path="url(#card)">
+<rect width="1280" height="920" fill="url(#bg)"/>
+
+<circle cx="800.9" cy="60.3" r="0.35" fill="#ffffff" opacity="0.85" class=""/>
+<circle cx="296.9" cy="139.5" r="1.62" fill="#ffffff" opacity="0.58" class=""/>
+<circle cx="124.7" cy="125.1" r="0.37" fill="#ffe7c4" opacity="0.93" class=""/>
+<circle cx="1172.1" cy="26.4" r="0.39" fill="#ffffff" opacity="0.71" class=""/>
+<circle cx="732.1" cy="95.7" r="0.80" fill="#ffffff" opacity="0.73" class="s s3"/>
+<circle cx="1267.0" cy="81.4" r="1.17" fill="#ffffff" opacity="0.60" class="s s1"/>
+<circle cx="302.0" cy="33.1" r="0.35" fill="#ffd88a" opacity="0.41" class="s s3"/>
+<circle cx="781.4" cy="143.7" r="0.35" fill="#ffffff" opacity="0.87" class="s s1"/>
+<circle cx="871.6" cy="94.4" r="1.82" fill="#ffffff" opacity="0.84" class="s s1"/>
+<circle cx="742.4" cy="18.4" r="0.72" fill="#ffffff" opacity="0.73" class=""/>
+<circle cx="769.9" cy="163.2" r="0.36" fill="#ffffff" opacity="0.80" class="s s1"/>
+<circle cx="305.5" cy="172.4" r="0.48" fill="#ffffff" opacity="0.77" class=""/>
+<circle cx="1229.7" cy="73.6" r="1.00" fill="#cfe3ff" opacity="0.48" class="s s1"/>
+<circle cx="1007.4" cy="31.2" r="1.75" fill="#ffffff" opacity="0.54" class=""/>
+<text x="56.0" y="70.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="500" fill="#ffd88a" text-anchor="start" letter-spacing="4">WORK BOARD  ·  COOKING COLUMN READS MY OPEN PULL REQUESTS</text>
+<text x="54.0" y="130.0" font-family="Georgia, 'Times New Roman', 'DejaVu Serif', serif" font-size="48" font-weight="400" fill="#eef2ff" text-anchor="start" >Shipped, and still cooking</text>
+<text x="56.0" y="172.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="21" font-weight="400" fill="#aab4d6" text-anchor="start" >18 open pull requests in Ssushhii right now. Updated every morning.</text>
+<circle cx="65" cy="210" r="8" fill="#5ef0c8"/>
+<text x="84.0" y="216.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="500" fill="#5ef0c8" text-anchor="start" letter-spacing="3">SHIPPED</text>
+<circle cx="667" cy="210" r="8" fill="#ff906c" class="s s2"/>
+<text x="686.0" y="216.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="500" fill="#ff906c" text-anchor="start" letter-spacing="3">COOKING</text>
+<rect x="56" y="236" width="566" height="78" rx="16" fill="rgba(255,255,255,0.045)" stroke="rgba(226,233,255,0.14)"/>
+<rect x="56" y="236" width="5" height="78" rx="2.5" fill="#5ef0c8"/>
+<text x="80.0" y="269.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="23" font-weight="600" fill="#eef2ff" text-anchor="start" >Celestial Observatory V15</text>
+<text x="80.0" y="296.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="18" font-weight="400" fill="#aab4d6" text-anchor="start" >WebGL2 solar system. The black hole bends light.</text>
+<text x="602.0" y="269.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="600" fill="#5ef0c8" text-anchor="end" >live</text>
+<rect x="56" y="328" width="566" height="78" rx="16" fill="rgba(255,255,255,0.045)" stroke="rgba(226,233,255,0.14)"/>
+<rect x="56" y="328" width="5" height="78" rx="2.5" fill="#5ef0c8"/>
+<text x="80.0" y="361.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="23" font-weight="600" fill="#eef2ff" text-anchor="start" >Sky Wheel</text>
+<text x="80.0" y="388.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="18" font-weight="400" fill="#aab4d6" text-anchor="start" >Real planets 1800–2050, checked at 240 dates</text>
+<text x="602.0" y="361.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="600" fill="#5ef0c8" text-anchor="end" >live</text>
+<rect x="56" y="420" width="566" height="78" rx="16" fill="rgba(255,255,255,0.045)" stroke="rgba(226,233,255,0.14)"/>
+<rect x="56" y="420" width="5" height="78" rx="2.5" fill="#5ef0c8"/>
+<text x="80.0" y="453.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="23" font-weight="600" fill="#eef2ff" text-anchor="start" >Halo Tactical Command Center V12</text>
+<text x="80.0" y="480.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="18" font-weight="400" fill="#aab4d6" text-anchor="start" >3D replays that explain the angles</text>
+<text x="602.0" y="453.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="600" fill="#5ef0c8" text-anchor="end" >v12</text>
+<rect x="56" y="512" width="566" height="78" rx="16" fill="rgba(255,255,255,0.045)" stroke="rgba(226,233,255,0.14)"/>
+<rect x="56" y="512" width="5" height="78" rx="2.5" fill="#5ef0c8"/>
+<text x="80.0" y="545.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="23" font-weight="600" fill="#eef2ff" text-anchor="start" >Market Observatory</text>
+<text x="80.0" y="572.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="18" font-weight="400" fill="#aab4d6" text-anchor="start" >Flask research dashboard, demo mode, 15 tests</text>
+<text x="602.0" y="545.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="600" fill="#5ef0c8" text-anchor="end" >mvp</text>
+<rect x="56" y="604" width="566" height="78" rx="16" fill="rgba(255,255,255,0.045)" stroke="rgba(226,233,255,0.14)"/>
+<rect x="56" y="604" width="5" height="78" rx="2.5" fill="#5ef0c8"/>
+<text x="80.0" y="637.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="23" font-weight="600" fill="#eef2ff" text-anchor="start" >Cargo Profit Engine</text>
+<text x="80.0" y="664.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="18" font-weight="400" fill="#aab4d6" text-anchor="start" >Live lead-intel funnel: 8 accounts scored</text>
+<text x="602.0" y="637.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="600" fill="#5ef0c8" text-anchor="end" >live</text>
+<rect x="56" y="696" width="566" height="78" rx="16" fill="rgba(255,255,255,0.045)" stroke="rgba(226,233,255,0.14)"/>
+<rect x="56" y="696" width="5" height="78" rx="2.5" fill="#5ef0c8"/>
+<text x="80.0" y="729.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="23" font-weight="600" fill="#eef2ff" text-anchor="start" >Sushir 3D Studio</text>
+<text x="80.0" y="756.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="18" font-weight="400" fill="#aab4d6" text-anchor="start" >Portfolio site with two live WebGL demos</text>
+<text x="602.0" y="729.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="15" font-weight="600" fill="#5ef0c8" text-anchor="end" >site</text>
+<rect x="658" y="236" width="566" height="78" rx="16" fill="rgba(255,255,255,0.045)" stroke="rgba(226,233,255,0.14)"/>
+<rect x="658" y="236" width="5" height="78" rx="2.5" fill="#ff906c"/>
+<text x="682.0" y="269.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="21" font-weight="600" fill="#eef2ff" text-anchor="start" >Add the Duo Display build log, making-of, i…</text>
+<text x="682.0" y="296.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="400" fill="#aab4d6" text-anchor="start" >#21 · draft · opened 2w ago</text>
+<rect x="658" y="328" width="566" height="78" rx="16" fill="rgba(255,255,255,0.045)" stroke="rgba(226,233,255,0.14)"/>
+<rect x="658" y="328" width="5" height="78" rx="2.5" fill="#ff906c"/>
+<text x="682.0" y="361.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="21" font-weight="600" fill="#eef2ff" text-anchor="start" >Add Winding Sky real-time 3D render showcase</text>
+<text x="682.0" y="388.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="400" fill="#aab4d6" text-anchor="start" >#20 · draft · opened 3w ago</text>
+<rect x="658" y="420" width="566" height="78" rx="16" fill="rgba(255,255,255,0.045)" stroke="rgba(226,233,255,0.14)"/>
+<rect x="658" y="420" width="5" height="78" rx="2.5" fill="#ffd88a"/>
+<text x="682.0" y="453.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="21" font-weight="600" fill="#eef2ff" text-anchor="start" >Add a copyable GPT code walkthrough prompt</text>
+<text x="682.0" y="480.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="400" fill="#aab4d6" text-anchor="start" >#18 · ready for review · opened 4w ago</text>
+<rect x="658" y="512" width="566" height="78" rx="16" fill="rgba(255,255,255,0.045)" stroke="rgba(226,233,255,0.14)"/>
+<rect x="658" y="512" width="5" height="78" rx="2.5" fill="#ff906c"/>
+<text x="682.0" y="545.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="21" font-weight="600" fill="#eef2ff" text-anchor="start" >Harden live comparison handling and add OME…</text>
+<text x="682.0" y="572.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="400" fill="#aab4d6" text-anchor="start" >#19 · draft · opened 4w ago</text>
+<rect x="658" y="604" width="566" height="78" rx="16" fill="rgba(255,255,255,0.045)" stroke="rgba(226,233,255,0.14)"/>
+<rect x="658" y="604" width="5" height="78" rx="2.5" fill="#ffd88a"/>
+<text x="682.0" y="637.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="21" font-weight="600" fill="#eef2ff" text-anchor="start" >Show the source and tests in two dashboard…</text>
+<text x="682.0" y="664.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="400" fill="#aab4d6" text-anchor="start" >#17 · ready for review · opened 4w ago</text>
+<rect x="658" y="696" width="566" height="78" rx="16" fill="rgba(255,255,255,0.045)" stroke="rgba(226,233,255,0.14)"/>
+<rect x="658" y="696" width="5" height="78" rx="2.5" fill="#ffd88a"/>
+<text x="682.0" y="729.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="21" font-weight="600" fill="#eef2ff" text-anchor="start" >Give the project a clearer front door</text>
+<text x="682.0" y="756.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="400" fill="#aab4d6" text-anchor="start" >#16 · ready for review · opened 4w ago</text>
+<rect x="658" y="788" width="566" height="78" rx="16" fill="rgba(255,255,255,0.045)" stroke="rgba(226,233,255,0.14)"/>
+<rect x="658" y="788" width="5" height="78" rx="2.5" fill="#ffd88a"/>
+<text x="682.0" y="821.0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="21" font-weight="600" fill="#eef2ff" text-anchor="start" >Add CodeQL and Dependabot security automati…</text>
+<text x="682.0" y="848.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="17" font-weight="400" fill="#aab4d6" text-anchor="start" >#15 · ready for review · opened 4w ago</text>
+</g>
+<rect x=".5" y=".5" width="1279" height="919" rx="28" fill="none" stroke="rgba(255,255,255,0.10)"/>
+</svg>
