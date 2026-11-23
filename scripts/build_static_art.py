@@ -21,7 +21,7 @@ ABOUT = [  # key, value: keep it short and true
     ("Sky", "3,232 real stars, placed by my own math"),
     ("Accuracy", "Sun 0.006° · Moon 0.028° vs PyEphem"),
     ("Tests", "15 passing on Market Observatory"),
-    ("Chess", "570 games · 1.e3 wins 63% of the time"),
+    ("Chess", "WindingSkyy · 2,000+ games · 76% accuracy"),
     ("Cooking", "a 3D configurator, a duo display, more"),
     ("Status", "open to junior, contract & project work"),
     ("Rate", "Flask/API fixes from $40, scope first"),

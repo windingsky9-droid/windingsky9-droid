@@ -253,9 +253,21 @@ retrograde = speed < 0   # the planet looks like it's moving backwards
 
 ## Chess
 
-<a href="https://www.chess.com/member/windingsky">
-  <img src="assets/chess.svg" width="100%" alt="Chess card from chess.com: ratings with sparklines for rapid, blitz and bullet, my last ten results and my go-to openings with win rates" title="The rating goes up. Slowly. Like a planet.">
+<a href="https://www.chess.com/member/WindingSkyy">
+  <img src="assets/chess.svg" width="100%" alt="Chess card for WindingSkyy on chess.com: rapid rating with a sparkline, win record, win rates as white and as black, the last ten results and go-to openings with win rates" title="The rating goes up. Slowly. Like a planet.">
 </a>
+
+**[Play the WindingSkyy Arena](https://raw.githack.com/windingsky9-droid/windingsky9-droid/main/play/chess.html)**: Rome against Greece in the browser, with a built-in engine, war horns and a herald that calls every move, zodiac piece skins, and puzzles cut from positions where I missed the winning move. It is [one HTML file](play/chess.html), so you can save it and play offline.
+
+What Stockfish 16 found when it graded 1,987 of my games:
+
+| Measure | Result |
+|---|---|
+| Average accuracy | 76% (80.5% in wins, 71.5% in losses) |
+| Where I blunder | the middlegame: 11.2 per 100 moves, against 4.7 in endgames |
+| Winning positions converted | 64% (797 of 1,243) |
+| Lost positions saved | 27% (279 of 1,026) |
+| Piece I hang most | the knight, 515 times |
 
 ## What I can help with
 

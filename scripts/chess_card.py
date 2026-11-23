@@ -15,7 +15,8 @@ import urllib.request
 
 from svgkit import C, MONO, SANS, SERIF, card_close, card_open, esc, label, stars, text
 
-ACCOUNTS = ["windingsky", "ssushhii"]
+ACCOUNTS = ["windingskyy"]  # chess.com/member/WindingSkyy
+DISPLAY = {"windingskyy": "WindingSkyy"}
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 OUT = os.path.join(ROOT, "assets", "chess.svg")
 UA = {"User-Agent": "github-profile-chess-card/1.0"}
@@ -63,7 +64,7 @@ def collect():
                 mine, opp = g[color], g["black" if color == "white" else "white"]
                 res = mine["result"]
                 outcome = "W" if res == "win" else ("D" if res in DRAWS else "L")
-                games.append({"acct": acct, "end": g["end_time"], "tc": g["time_class"], "rating": mine.get("rating"),
+                games.append({"acct": acct, "end": g["end_time"], "tc": g["time_class"], "rating": mine.get("rating"), "color": color,
                               "opp": opp.get("rating"), "out": outcome, "fam": family(g.get("eco")), "rated": g.get("rated", True)})
     games.sort(key=lambda x: x["end"])
     return games, stats
@@ -96,27 +97,76 @@ def draw(games, stats):
         series = by[k]
         st = stats[k[0]].get(f"chess_{k[1]}", {})
         cur = st.get("last", {}).get("rating", series[-1])
-        best = max(series)  # chess.com's "best" can be the default starting rating
+        # chess.com starts everyone near 1200, so the first provisional games are left out of the peak
+        best = max(series[15:]) if len(series) > 30 else max(series)
         tiles.append((k, cur, best, series[-80:]))
     main_series = by.get(keys[0], []) if keys else []
     climbing = len(main_series) > 10 and main_series[-1] > main_series[max(0, len(main_series) - 40)]
-    title = f"{total} games in. " + ("My rapid is climbing." if climbing and keys and keys[0][1] == "rapid" else "Still grinding.")
+    title = f"{total:,} games in. " + ("My rapid is climbing." if climbing and keys and keys[0][1] == "rapid" else "Still grinding.")
 
-    s = [card_open(W, H, "Chess card: " + title, f"{rec['W']} wins, {rec['L']} losses, {rec['D']} draws on chess.com")]
+    names = " + ".join(DISPLAY.get(a, a) for a in ACCOUNTS)
+    classes = [tc for tc, _ in collections.Counter(g["tc"] for g in games).most_common()]
+    s = [card_open(W, H, "Chess card: " + title, f"{names}: {rec['W']} wins, {rec['L']} losses, {rec['D']} draws on chess.com")]
     s.append(stars(W, H, 90, seed=7, avoid=lambda x, y: y < 200 or (200 < y < 600)))
-    s.append(label(56, 70, "Chess  ·  pulled from chess.com every morning", 17))
+    s.append(label(56, 70, f"Chess  ·  {names}  ·  pulled from chess.com every morning", 17))
     s.append(text(54, 130, title, 48, C["ink"], SERIF))
-    s.append(text(56, 172, f"{' + '.join(ACCOUNTS)}  ·  {rec['W']} wins, {rec['L']} losses, {rec['D']} draws  ·  rapid, blitz and bullet", 21, C["muted"]))
+    s.append(text(56, 172, f"{names}  ·  {rec['W']} wins, {rec['L']} losses, {rec['D']} draws  ·  {', '.join(classes[:3])}", 21, C["muted"]))
 
     cols = [C["mint"], C["gold"], C["sky"], C["coral"]]
     tw, gap, x, y0 = 281, 15, 56, 206
+    slots = 0
     for i, ((acct, tc), cur, best, series) in enumerate(tiles):
-        tx = x + i * (tw + gap)
-        s.append(f'<rect x="{tx}" y="{y0}" width="{tw}" height="190" rx="18" fill="{C["panel"]}" stroke="{C["line"]}"/>')
-        s.append(label(tx + 22, y0 + 34, f"{tc} · {acct}", 14, cols[i], 2))
+        wide = 2 if len(tiles) == 1 else 1  # a lone rating gets a double-width tile and a longer line
+        width = tw * wide + gap * (wide - 1)
+        tx = x + slots * (tw + gap)
+        slots += wide
+        if wide == 2:
+            series = by[(acct, tc)][-240:]
+        s.append(f'<rect x="{tx}" y="{y0}" width="{width}" height="190" rx="18" fill="{C["panel"]}" stroke="{C["line"]}"/>')
+        s.append(label(tx + 22, y0 + 34, f"{tc} · {DISPLAY.get(acct, acct)}", 14, cols[i], 2))
         s.append(text(tx + 20, y0 + 96, str(cur), 56, C["ink"], SERIF))
-        s.append(text(tx + tw - 22, y0 + 96, f"peak {best}", 18, C["muted"], MONO, 500, "end"))
-        s.append(sparkline(series, tx + 22, y0 + 116, tw - 44, 52, cols[i]))
+        s.append(text(tx + width - 22, y0 + 96, f"peak {best}", 18, C["muted"], MONO, 500, "end"))
+        s.append(sparkline(series, tx + 22, y0 + 116, width - 44, 52, cols[i]))
+
+    # with fewer than four ratings, fill the row with tiles from the same games
+    extra = []
+    tot = max(total, 1)
+    extra.append(("record", f"{round(100 * rec['W'] / tot)}%", "wins",
+                  [(rec["W"], C["mint"]), (rec["D"], C["gold"]), (rec["L"], C["coral"])],
+                  f"{rec['W']} W · {rec['D']} D · {rec['L']} L"))
+    side = {c: collections.Counter() for c in ("white", "black")}
+    for g in games:
+        side[g["color"]][g["out"]] += 1
+    wr = {c: round(100 * v["W"] / max(sum(v.values()), 1)) for c, v in side.items()}
+    extra.append(("as white / as black", f"{wr['white']}% · {wr['black']}%", "",
+                  [(side["white"]["W"], C["ink"]), (side["black"]["W"], C["dim"])],
+                  f"{sum(side['white'].values())} games white · {sum(side['black'].values())} black"))
+    run = best_run = 0
+    for g in games:
+        run = run + 1 if g["out"] == "W" else 0
+        best_run = max(best_run, run)
+    cutoff = time.time() - 30 * 86400
+    recent = [g for g in games if g["end"] >= cutoff]
+    rwr = round(100 * sum(g["out"] == "W" for g in recent) / len(recent)) if recent else 0
+    extra.append(("last 30 days", str(len(recent)), "games",
+                  [(sum(g["out"] == "W" for g in recent), C["sky"]), (sum(g["out"] != "W" for g in recent), C["line"])],
+                  f"{rwr}% won · best win streak ever {best_run}"))
+    for j, (name, big, unit, parts, note) in enumerate(extra[: max(0, 4 - slots)]):
+        tx = x + (slots + j) * (tw + gap)
+        col = cols[(slots + j) % 4]
+        s.append(f'<rect x="{tx}" y="{y0}" width="{tw}" height="190" rx="18" fill="{C["panel"]}" stroke="{C["line"]}"/>')
+        s.append(label(tx + 22, y0 + 34, name, 14, col, 2))
+        s.append(text(tx + 20, y0 + 96, big, 44 if len(big) > 6 else 56, C["ink"], SERIF))
+        if unit:
+            s.append(text(tx + tw - 22, y0 + 96, unit, 18, C["muted"], MONO, 500, "end"))
+        whole = max(sum(p for p, _ in parts), 1)
+        bx = tx + 22
+        for p, pc in parts:
+            bw = (tw - 44) * p / whole
+            if bw > 0.5:
+                s.append(f'<rect x="{bx:.1f}" y="{y0 + 122}" width="{bw:.1f}" height="14" rx="4" fill="{pc}" fill-opacity=".85"/>')
+            bx += bw
+        s.append(text(tx + 22, y0 + 166, note, 14, C["muted"], MONO, 500))
 
     # last ten results
     s.append(label(56, 450, "Last 10 games", 15, C["gold"], 3))

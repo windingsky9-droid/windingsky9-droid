@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 640" width="1280" height="640" role="img" aria-labelledby="t d">
 <title id="t">About Sushir, as a terminal</title>
-<desc id="d">Role: Python &amp; API dev who also draws planets; Stack: Python · Flask · REST/JSON · pytest; Render: three.js r170 · WebGL2 · GLSL · bloom; Sky: 3,232 real stars, placed by my own math; Accuracy: Sun 0.006° · Moon 0.028° vs PyEphem; Tests: 15 passing on Market Observatory; Chess: 570 games · 1.e3 wins 63% of the time; Cooking: a 3D configurator, a duo display, more; Status: open to junior, contract &amp; project work; Rate: Flask/API fixes from $40, scope first; Motto: if it renders, it ships</desc>
+<desc id="d">Role: Python &amp; API dev who also draws planets; Stack: Python · Flask · REST/JSON · pytest; Render: three.js r170 · WebGL2 · GLSL · bloom; Sky: 3,232 real stars, placed by my own math; Accuracy: Sun 0.006° · Moon 0.028° vs PyEphem; Tests: 15 passing on Market Observatory; Chess: WindingSkyy · 2,000+ games · 76% accuracy; Cooking: a 3D configurator, a duo display, more; Status: open to junior, contract &amp; project work; Rate: Flask/API fixes from $40, scope first; Motto: if it renders, it ships</desc>
 <defs>
 <radialGradient id="bg" cx="68%" cy="30%" r="95%"><stop offset="0" stop-color="#0d1536"/><stop offset="1" stop-color="#02040c"/></radialGradient>
 <clipPath id="card"><rect width="1280" height="640" rx="24"/></clipPath>
@@ -61,7 +61,7 @@
 <text x="530.0" y="347.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Tests</text>
 <text x="670.0" y="347.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >15 passing on Market Observatory</text>
 <text x="530.0" y="384.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Chess</text>
-<text x="670.0" y="384.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >570 games · 1.e3 wins 63% of the time</text>
+<text x="670.0" y="384.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >WindingSkyy · 2,000+ games · 76% accuracy</text>
 <text x="530.0" y="421.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Cooking</text>
 <text x="670.0" y="421.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="400" fill="#eef2ff" text-anchor="start" >a 3D configurator, a duo display, more</text>
 <text x="530.0" y="458.0" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="21" font-weight="600" fill="#ffd88a" text-anchor="start" >Status</text>
